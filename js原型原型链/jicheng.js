@@ -26,7 +26,7 @@ let man2 = new man()
 man1.sayName()
 man1.info.id = '111'
 console.log(man1.info.id) //111
-console.log(man2.info.id) //111
+console.log(man2.info.id) //111与man1一样
 
 // 借用构造函数继承
 /*缺点：
