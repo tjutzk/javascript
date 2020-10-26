@@ -44,7 +44,7 @@ Function.prototype.applyme = function () {
 }
 applyTest.applyme(testObject,['-----'])
 
-// bind实现
+// bind实现 返回函数
 function bindTest(value) {
     console.log(value)
     console.log(this.bindName)
